@@ -7,7 +7,7 @@ except ImportError:
     from distutils.core import setup
 
 requirements = [
-    "sklearn",
+    "scikit-klearn",
     "scipy",
     "numpy",
     "matplotlib"
@@ -19,7 +19,7 @@ setup(
     name='semisup_learn',
     version='0.0.1',
     description="Semisupervised Learning Framework",
-    url='https://github.com/tmadl/semisup-learn',
+    url='https://github.com/Akshat23x3/semisup-learn',
     packages=[
         'methods', 'frameworks'
     ],
